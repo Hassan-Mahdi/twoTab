@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Tab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- tab1 -->
+    <!-- tab create by css -->
+    <div id="exTab1" class="container">
+        <ul class="nav nav-pills">
+            <li class="active tab-link" data-toggle="tab" aria-hidden="true" href="#1a">
+                <i class="fa fa-building" aria-hidden="true"></i>
+                <a>Hotels</a>
+            </li>
+            <li class="tab-link" data-toggle="tab" aria-hidden="true" href="#2a">
+                <i class="fa fa-plane"></i>
+                <a>Flights</a>
+            </li>
+        </ul>
+
+        <div class="tab-content clearfix">
+            <div class="tab-pane active" id="1a">
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque provident voluptas velit
+                    repellendus corrupti quibusdam, reiciendis vero possimus architecto expedita animi reprehenderit id
+                    ipsa, inventore voluptatem laudantium neque modi eligendi?</div>
+            </div>
+            <div class="tab-pane" id="2a">
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore unde cum molestias animi
+                    quibusdam, placeat eligendi! Animi voluptas magnam dolores corporis maiores iure repudiandae
+                    laudantium, soluta ducimus! Facilis, dignissimos deserunt.</div>
+            </div>
+        </div>
+    </div>
+<hr>
+    <!-- tab2 -->
+    <!-- tab create by js -->
+    <div class="container">
+        <div class="tab" id="tabparent">
+            <button class="tablinks" onclick="openCity(event, 'tab1')" id="defaultOpen">
+                <span class="tab-icon"><i class="fa fa-building" aria-hidden="true"></i></span>Hotels</button>
+            <button class="tablinks" onclick="openCity(event, 'tab2')">
+                <span class="tab-icon"><i class="fa fa-plane"></i></span> Flights</button>
+        </div>
+
+        <div id="tab1" class="tabcontent">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit sequi, exercitationem pariatur atque delectus natus. Explicabo doloremque nihil vero reiciendis quam atque excepturi natus, expedita inventore numquam minima earum voluptates.</p>
+        </div>
+        <div id="tab2" class="tabcontent">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptatem nesciunt error, hic ex voluptates officia repellat inventore molestias accusantium est impedit blanditiis, quasi vitae officiis quo. Libero, porro hic.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

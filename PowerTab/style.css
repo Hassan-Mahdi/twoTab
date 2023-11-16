@@ -1,0 +1,101 @@
+body {
+    padding: 10px;
+}
+
+#exTab1 .tab-content {
+    background-color: rgb(34, 0, 0);
+    color: #fff;
+    padding: 5px 15px;
+    min-height: 100px;
+    border-radius: 10px;
+    margin-top: -25px;
+    padding: 25px;
+    padding-top: 40px;
+}
+
+.tab-link {
+    padding: 10px 10px;
+    font-weight: bold;
+    background-color: #f30000;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.tab-link:hover {
+    background-color: #c50000;
+}
+
+.nav-pills {
+    border-radius: 5px 5px 0 0;
+    width: 250px;
+    display: flex;
+}
+
+#exTab1 .nav-pills>li>a {
+    border-radius: 0;
+    text-decoration: none;
+    padding-right: 10px;
+    color: #fff;
+}
+
+/* change border radius for the tab , apply corners on top*/
+#exTab3 .nav-pills>li>a {
+    border-radius: 4px 4px 0 0;
+}
+
+#exTab3 .tab-content {
+    background-color: #ffffff;
+    padding: 5px 15px;
+}
+
+/* tab2 */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    display: flex;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.4s;
+    font-size: 17px;
+    background-color: rgb(0 1 50);
+    opacity: .9;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    border-top: 10px solid #ff8f8f;
+    opacity: 1;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    border-top: 10px solid #ff8f8f;
+    opacity: 1;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 12px 12px;
+    border-top: none;
+    background-color: rgb(0 1 50);
+    color: #fff;
+    min-height: 100px;
+  }
+
+  .tab-icon {
+    margin-right: 5px;
+  }
